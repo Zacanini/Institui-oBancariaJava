@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Banco
+comment1.params=
+comment1.target=Banco()
+comment10.params=sigla
+comment10.target=void\ setSigla(java.lang.String)
+comment11.params=
+comment11.target=java.lang.String\ getSigla()
+comment2.params=conta
+comment2.target=void\ addConta(ContaBancario)
+comment3.params=
+comment3.target=java.util.ArrayList\ getContas()
+comment4.params=bancario
+comment4.target=void\ addBancario(Bancario)
+comment5.params=
+comment5.target=java.util.ArrayList\ getBancarios()
+comment6.params=nome
+comment6.target=void\ setNome(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getNome()
+comment8.params=gerente
+comment8.target=void\ setGerente(Gerente)
+comment9.params=
+comment9.target=Gerente\ getGerente()
+numComments=12

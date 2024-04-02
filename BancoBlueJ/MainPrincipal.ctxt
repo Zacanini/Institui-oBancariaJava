@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MainPrincipal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=bco
+comment2.target=ContaBancario\ cadastrarConta(Banco)
+comment3.params=
+comment3.target=Cliente\ cadastrarCliente()
+comment4.params=
+comment4.target=int\ Menu()
+comment5.params=
+comment5.target=boolean\ verificaLogin()
+comment6.params=le
+comment6.target=Bancario\ cadastrarBancario(java.util.Scanner)
+comment7.params=
+comment7.target=Banco\ cadastrarBanco()
+numComments=8
