@@ -6,17 +6,20 @@ public class ContaBancario
     private String numeroConta;
     private Banco banco;
     
-    
-    public ContaBancario(){
-        
+    public ContaBancario(){        
     }
     public ContaBancario(String numeroConta){
         this.numeroConta = numeroConta;
+        saldo = 0;
+    }
+        
+    public boolean temSaldo(double valor){
+        return valor >= 0 && valor <= saldo;
     }
     
-      
+    
     public void sacar(double valor){
-        if (valor >= 0 && valor <= saldo){
+        if ( temSaldo(valor) ){
          this.saldo -= valor;
         }
     }
@@ -56,6 +59,7 @@ public class ContaBancario
         return banco;
     }
 }
+
 
     
    
